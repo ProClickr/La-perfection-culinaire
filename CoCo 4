@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rooms | Hotel L</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Hotel Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="rooms.html">Rooms</a></li>
+                <li><a href="dining.html">Dining</a></li>
+                <li><a href="amenities.html">Amenities</a></li>
+                <li><a href="bookings.html">Bookings</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="rooms-overview">
+        <h1>Our Rooms</h1>
+        <div class="room-grid">
+            <div class="room-box">
+                <img src="images/room1.jpg" alt="Luxury Room">
+                <h2>Luxury Room</h2>
+                <p>Price: $200 per night</p>
+                <a href="bookings.html" class="cta-button">Book Now</a>
+            </div>
+            <!-- Add more room boxes here -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Hotel L. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
