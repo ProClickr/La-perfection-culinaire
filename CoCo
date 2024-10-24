@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel L</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Hotel Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="rooms.html">Rooms</a></li>
+                <li><a href="dining.html">Dining</a></li>
+                <li><a href="amenities.html">Amenities</a></li>
+                <li><a href="bookings.html">Bookings</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Welcome to Hotel L, Your Oasis of Comfort</h1>
+            <a href="bookings.html" class="cta-button">Book Now</a>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="feature-box">
+            <h2>Luxury Rooms</h2>
+            <p>Experience ultimate comfort and elegance in our luxury rooms.</p>
+        </div>
+        <div class="feature-box">
+            <h2>Fine Dining</h2>
+            <p>Indulge in gourmet dining at our world-class restaurant.</p>
+        </div>
+        <div class="feature-box">
+            <h2>Exceptional Service</h2>
+            <p>Our staff is dedicated to making your stay unforgettable.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Hotel L. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
